@@ -83,3 +83,53 @@ body{
     background-color: white;
     color: rgb(35, 34, 34);
 }
+
+
+
+.nav.nav-beeline .nav-item .nav-link{
+    color:black;
+    text-transform: uppercase;
+}
+
+.nav.nav-beeline .nav-item .nav-link:hover{
+    color: rgb(77, 72, 72);
+}
+
+.nav.nav-beeline .nav-item.active .nav-link{
+    background-color: black;
+    color: yellow;
+}
+
+
+
+
+
+.nav.nav-o .nav-item .nav-link{
+    color:white;
+    text-transform: uppercase;
+}
+
+.nav.nav-o .nav-item .nav-link:hover{
+    color: rgb(211, 195, 195);
+}
+
+.nav.nav-o .nav-item.active .nav-link{
+    background-color: white;
+    color: rgb(192, 27, 54);
+}
+
+
+
+.nav.nav-mega .nav-item .nav-link{
+    color: rgb(10, 197, 10);
+}
+
+.nav.nav-mega .nav-item .nav-link:hover{
+    color: green;
+}
+.nav.nav-mega .nav-item.active .nav-link{
+    background-color: rgb(18, 169, 18);
+    color: rgb(129, 35, 67);
+}
+
+

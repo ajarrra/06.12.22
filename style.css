@@ -65,3 +65,8 @@ body{
 .nav .nav-item .nav-link:hover{
     color: rgb(11, 11, 164);
 }
+
+.nav .nav-item.active .nav-link{
+    background-color: blue;
+    color: white;
+}

@@ -70,3 +70,16 @@ body{
     background-color: blue;
     color: white;
 }
+
+.nav.nav-dark .nav-item .nav-link{
+    color: white;
+}
+
+.nav.nav-dark .nav-item .nav-link:hover{
+    color: rgb(234, 225, 225);
+}
+
+.nav.nav-dark .nav-item.active .nav-link{
+    background-color: white;
+    color: rgb(35, 34, 34);
+}

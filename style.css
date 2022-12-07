@@ -135,25 +135,77 @@ body{
 
 
 .topbar.topbar-my{
-    background-color: #DEB887;
+    background: linear-gradient(10deg, #DEB887, #D2691E,#8B4513) ;
     color: white;
-    font-weight: 800;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-family:cursive;
     font-size: 21px;
     padding: 15px 25px;
 }
 
+
 .nav.nav-my .nav-item .nav-link{
-    color: #8B4513;
+    color: #70370d;
+    box-shadow: 1px 2px 2px black;
+    margin: 10px;
 }
 
 .nav.nav-my .nav-item .nav-link:hover{
-    color:#5f300f;
+    background: linear-gradient(45deg, #8B4513,#62300d);
+    
+}
+
+.nav.nav-my .nav-item .nav-link:hover{
+    color: #DEB887;
 }
 
 .nav.nav-my .nav-item.active .nav-link{
-    background-color: #8B4513;
+    background: linear-gradient(25deg , #8B4513, #64310c);
     color: #DEB887;
     padding: 11px 60px;
     border-radius: 5px;
 }
+
+
+
+.topbar.topbar-myy{
+    padding: 0;
+}
+
+.nav.nav-myy{
+    margin-left: 15px;
+}
+
+.nav.nav-myy .nav-item{
+    border-radius: 5px;
+
+    text-transform:lowercase;
+    font-size: 28px;
+    font-weight:lighter;
+    text-shadow: 1px 1px 2px grey;
+    padding: 25px 30px;
+    background-color: white;
+    transform: skewX(-30deg);
+}
+
+.nav.nav-myy .nav-item:hover {
+    background: linear-gradient(45deg, rgb(238, 153, 236), #D8BFD8,#8A2BE2);
+    
+  }
+
+ .nav.nav-myy .nav-item .nav-link:hover{
+    color: white;
+ }
+  .nav.nav-myy .nav-item.active {
+    background: linear-gradient(60deg, #9400D3, #FF00FF, #8A2BE2);
+  }
+  .nav.nav-myy .nav-item .nav-link {
+    transform: skewX(20deg);
+    background: none;
+    padding: 0;
+    color: #8B008B;
+  }
+  .nav.nav-myy .nav-item.active .nav-link {
+    color:white;
+  }
+  

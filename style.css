@@ -133,3 +133,27 @@ body{
 }
 
 
+
+.topbar.topbar-my{
+    background-color: #DEB887;
+    color: white;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 21px;
+    padding: 15px 25px;
+}
+
+.nav.nav-my .nav-item .nav-link{
+    color: #8B4513;
+}
+
+.nav.nav-my .nav-item .nav-link:hover{
+    color:#5f300f;
+}
+
+.nav.nav-my .nav-item.active .nav-link{
+    background-color: #8B4513;
+    color: #DEB887;
+    padding: 11px 60px;
+    border-radius: 5px;
+}
